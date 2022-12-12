@@ -14,7 +14,7 @@ function App() {
         <Navbar />
 
         <Switch> {/*Permet d'éviter que des erreurs s'affiche partout*/}
-          <Route path='/one_page/' exact component={Home} />
+          <Route path='/' exact component={Home} />
           <Route path='/services' exact component={Services} />
           <Route path='/products' exact component={Products} />
           <Route path='/signUp' exact component={SignUp} />   
